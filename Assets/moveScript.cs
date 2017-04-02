@@ -10,8 +10,6 @@ public class moveScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//test
-		
 		transform.position += new Vector3 (Input.GetAxis("Horizontal"),0,0);			
 	}
 }
